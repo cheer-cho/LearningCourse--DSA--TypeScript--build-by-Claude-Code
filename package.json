@@ -1,0 +1,19 @@
+{
+  "name": "dsa-typescript-course",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-paced, hands-on Data Structures & Algorithms course in TypeScript. Study it in VS Code with Claude Code as your instructor.",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "typecheck": "tsc --noEmit",
+    "playground": "node scripts/playground.mjs",
+    "verify:solutions": "node scripts/verify-solutions.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
